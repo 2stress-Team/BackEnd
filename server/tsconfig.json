@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"lib": [
+			"esnext",
+			"dom"
+		],
+		"allowJs": false,
+		"noEmit": true,
+		"strict": true,
+		"esModuleInterop": false,
+		"rejectUnauthorized": true,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"outDir": ".dist"
+	},
+	"files": ["types.d.ts"],
+	"include": [
+		"src",
+		"types.d.ts"
+	],
+	"exclude": [
+		".eslintrc.js",
+		".jestrc.js",
+		"babel.config.js",
+		"prettier.config.js"
+	]
+}
